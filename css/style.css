@@ -1,0 +1,25 @@
+body {
+    height: 100vh;
+}
+
+#card {
+    width: 100%;
+    position: relative;
+    max-width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    border-radius: 10px;
+    margin: 0 auto;
+    font-size: 15px;
+    background-color: red;
+}
+.photoProfil {
+    position: absolute;
+}
+.photoProfil img {
+    border-radius: 50%;
+    border: 6px solid white;
+
+}
