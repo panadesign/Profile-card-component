@@ -3,7 +3,9 @@ body {
     font-size: 18px;
     font-family: 'Kumbh Sans', sans-serif;
     color: hsl(0, 0%, 59%);
-    height: 10vh;
+    background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: -10% 300%, 110% -300%;
 }
 
 #card {
@@ -80,7 +82,7 @@ header {
     justify-content: space-between;
     font-size: 12px;
     text-align: center;
-    border-top:1px solid hsl(0, 0%, 59%);
+    border-top:1px solid hsl(0, 0%, 87%);
     padding: 30px 45px 20px;
     line-height: 20px;
 }
@@ -89,4 +91,10 @@ header {
     color: hsl(229, 23%, 23%);
     font-weight: 700;
     font-size: 18px;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-position: 130% 200%, -30% -22%;
+    }
 }
